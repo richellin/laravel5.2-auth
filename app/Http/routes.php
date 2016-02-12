@@ -48,7 +48,7 @@ Route::group(['middleware' => 'web'], function () {
     ]);
     
     Route::post('logout', [
-      'as' => 'login', 
+      'as' => 'logout', 
       'uses' => 'Auth\AuthController@logout'
     ]);
    
